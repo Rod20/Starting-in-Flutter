@@ -21,8 +21,10 @@ class DescriptionPlace extends StatelessWidget {
         textAlign: TextAlign.justify,
         overflow: TextOverflow.clip,
         style: TextStyle(
+          fontFamily: "Lato",
+          fontWeight: FontWeight.bold,
           color: Colors.black38,
-          fontSize: 15
+          fontSize: 16.0
         ),
       ),
     );
