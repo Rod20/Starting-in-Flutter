@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
                 ReviewList()
               ],
             ),
-            GradientBack()
+            GradientBack("Popular")
           ],
         ), // Sirve para poner un elemento encima de otro
       ),
