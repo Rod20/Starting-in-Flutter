@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'description_place.dart';
+import 'review_list.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,38 +20,9 @@ class MyApp extends StatelessWidget {
           leading: Icon(Icons.arrow_back),
           title: Text("Flutter Demo"),
         ),
-        body: new DescriptionPlace("Bahamas",descriptionDummy,4),
+        //body: new DescriptionPlace("Bahamas",descriptionDummy,4),
+        body: ReviewList(),
       ),
-      /*home: Scaffold(
-        appBar: AppBar(
-          leading: Icon(Icons.arrow_back),
-          title: Text("Flutter Demo"),
-        ),
-        body: Container(
-          decoration: BoxDecoration(
-            image: DecorationImage(
-                image: AssetImage('assets/images/therion.jpg'),
-                //image: AssetImage('images/therion.jpg', package: 'assets'),
-                fit: BoxFit.cover,
-            )
-          ),
-          child: Center(
-            child: Container(
-              height: 60,
-              color: Color.fromRGBO(0, 0, 0, 0.4),
-              child: Center(
-                child: Text(
-                  'Therion Experience',
-                  style: TextStyle(
-                    color: Color.fromRGBO(255, 255, 255, 1),
-                    fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-          ),
-        ),
-      )//MyHomePage(title: 'Flutter Demo Home Page'),*/
     );
   }
 }
