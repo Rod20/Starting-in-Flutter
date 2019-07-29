@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'description_place.dart';
 import 'review_list.dart';
 import 'gradient_back.dart';
+import 'header_appbar.dart';
 
 void main() => runApp(MyApp());
 
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
                 ReviewList()
               ],
             ),
-            GradientBack("Popular")
+            HeaderAppBar()
           ],
         ), // Sirve para poner un elemento encima de otro
       ),
