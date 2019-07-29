@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'description_place.dart';
 import 'review_list.dart';
+import 'gradient_back.dart';
 
 void main() => runApp(MyApp());
 
@@ -16,12 +17,22 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(
+        /*appBar: AppBar(
           leading: Icon(Icons.arrow_back),
           title: Text("Flutter Demo"),
-        ),
+        ),*/
         //body: new DescriptionPlace("Bahamas",descriptionDummy,4),
-        body: ReviewList(),
+        body: Stack(
+          children: <Widget>[
+            ListView(
+              children: <Widget>[
+                DescriptionPlace("Bahamas",descriptionDummy,4),
+                ReviewList()
+              ],
+            ),
+            GradientBack()
+          ],
+        ), // Sirve para poner un elemento encima de otro
       ),
     );
   }
