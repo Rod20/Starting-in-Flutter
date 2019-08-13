@@ -13,12 +13,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        /*appBar: AppBar(
+        appBar: AppBar(
           leading: Icon(Icons.arrow_back),
-          title: Text("Flutter Demo"),
-        ),*/
+          title: Text("Notifaciones"),
+        ),
         //body: new DescriptionPlace("Bahamas",descriptionDummy,4),
-        body: HomeTrips()// Sirve para poner un elemento encima de otro
+        body: HomeTrips()// Stack Sirve para poner un elemento encima de otro
       ),
     );
   }
