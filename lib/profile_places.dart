@@ -65,7 +65,7 @@ class ProfilePlaces extends StatelessWidget {
                 style: TextStyle(
                   color: Color(0xff231f20),
                   fontWeight: FontWeight.w900,
-                  fontSize: 16.23
+                  fontSize: 17.0
                 ),
               ),
             ),
@@ -74,8 +74,8 @@ class ProfilePlaces extends StatelessWidget {
                 placeDescription,
                 style: TextStyle(
                     color: Color(0xff808285),
-                    fontWeight: FontWeight.w100,
-                    fontSize: 9
+                    fontWeight: FontWeight.w300,
+                    fontSize: 10
                 ),
               ),
             ),
@@ -85,7 +85,7 @@ class ProfilePlaces extends StatelessWidget {
                 style: TextStyle(
                     color: Color(0xfff7941e),
                     fontWeight: FontWeight.w500,
-                    fontSize: 12
+                    fontSize: 14.0
                 ),
               ),
             ),

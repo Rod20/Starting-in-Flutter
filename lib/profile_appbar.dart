@@ -140,15 +140,15 @@ class ProfileAppBar extends StatelessWidget {
             ),
             Expanded(
               child: Container(
-                width: 31.0,
-                height: 31.0,
+                width: 50.0,
+                height: 50.0,
                 decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: Color.fromRGBO(255, 255, 255, 1)
                 ),
                 child: Icon(
                   Icons.add,
-                  size: 17.0,
+                  size: 30.0,
                   color: Color.fromRGBO(66, 104, 211, 1),
                 ),
               ),
