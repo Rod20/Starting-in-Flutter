@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_trips.dart';
+import 'trips.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,12 +13,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(
+        /*appBar: AppBar(
           leading: Icon(Icons.arrow_back),
           title: Text("Notifaciones"),
-        ),
+        ),*/
         //body: new DescriptionPlace("Bahamas",descriptionDummy,4),
-        body: HomeTrips()// Stack Sirve para poner un elemento encima de otro
+        body: Trips()// Stack Sirve para poner un elemento encima de otro
       ),
     );
   }

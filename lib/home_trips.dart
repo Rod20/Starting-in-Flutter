@@ -3,9 +3,6 @@ import 'description_place.dart';
 import 'header_appbar.dart';
 import 'review_list.dart';
 import 'text_todo.dart';
-import 'notifications/notifications_celebrated.dart';
-import 'notifications/notifications_commented.dart';
-import 'notifications/notifications_started.dart';
 
 class HomeTrips extends StatelessWidget {
 
@@ -22,16 +19,12 @@ class HomeTrips extends StatelessWidget {
       children: <Widget>[
         ListView(
           children: <Widget>[
-            //DescriptionPlace("Bahamas",descriptionDummy,4),
-            //NotificationsCelebrated(userC, celebrated,timeCelebrated,photoCelebrated,postC)
-            NotificationsCelebrated(),
-            NotificationsCommented(),
-            NotificationsStarted()
-            //ReviewList()
-            //TextTodo("Review"),
+            DescriptionPlace("Bahamas",descriptionDummy,4),
+            ReviewList(),
+            TextTodo("Review"),
           ],
         ),
-        //HeaderAppBar()
+        HeaderAppBar()
       ],
     );
   }
