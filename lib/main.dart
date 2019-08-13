@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'trips.dart';
+import 'trips_cupertino.dart';
 
 void main() => runApp(MyApp());
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
           title: Text("Notifaciones"),
         ),*/
         //body: new DescriptionPlace("Bahamas",descriptionDummy,4),
-        body: Trips()// Stack Sirve para poner un elemento encima de otro
+        body: TripsCupertino()// Stack Sirve para poner un elemento encima de otro
       ),
     );
   }
